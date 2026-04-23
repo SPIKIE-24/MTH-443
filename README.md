@@ -158,3 +158,19 @@ Build a **smart recommendation system for content creators**
 * Push updates regularly
 
 ---
+
+
+
+## ▶️ How to Run the Project
+
+1. Open R / RStudio
+
+2. Set working directory to project folder
+
+3. Run:
+
+source("main_pipeline.R")
+
+4. To skip preprocessing, directly load:
+
+model_data <- readRDS("processed_data/model_data.rds")
